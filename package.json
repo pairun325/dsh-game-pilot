@@ -1,0 +1,20 @@
+{
+  "name": "dsh-game-pilot",
+  "version": "0.1.0",
+  "description": "Let the whale play a game for you: screen eyes + real keyboard/mouse hands, batched into one fast loop.",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "game", "autoplay", "computer-use", "keyboard", "mouse"],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib/index.js", "lib/helper-client.js", "cordis.patch.yml", "README.md", "LICENSE"],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

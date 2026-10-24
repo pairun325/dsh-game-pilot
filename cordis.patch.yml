@@ -1,0 +1,4 @@
+# dsh-game-pilot 的 bundle patch：把代玩插件插进 profile。
+- insert:
+    - id: game-pilot
+      name: 'dsh-game-pilot'
